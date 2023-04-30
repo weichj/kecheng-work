@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>订单查询</title>
+</head>
+<body>
+<div style="display: flex;justify-content: center">
+    <form action="/SelectOrder" method="post">
+        订单号：<input type="text" th:value="${num}" name="Num">
+        <button type="submit">查询</button>
+    </form>
+</div>
+
+</body>
+</html>

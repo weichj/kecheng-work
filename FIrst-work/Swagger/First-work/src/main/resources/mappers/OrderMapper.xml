@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.firstWork.Mapper.OrderMapper">
+
+    <insert id="CreateOrder" >
+        INSERT INTO `order` VALUES (#{num},#{shipper},#{origin},#{destination},#{goodsName},#{carriers},"出库中",#{transporter})
+    </insert>
+
+    <select id="FindAllOrder" resultType="com.example.firstWork.Bean.Order">
+        SELECT * FROM `order` WHERE Shipper=#{shipper}
+    </select>
+    <select id="SelectAllOrder" resultType="com.example.firstWork.Bean.Order">
+        SELECT * FROM `order`
+    </select>
+    <select id="SelectOrder" resultType="com.example.firstWork.Bean.Order">
+        SELECT * FROM `order` WHERE Num=#{num}
+    </select>
+
+    <select id="FindUndisposed" resultType="com.example.firstWork.Bean.Order">
+        SELECT * FROM `order` WHERE transporter="未分配"
+    </select>
+
+    <update id="UpdateOrder">
+        UPDATE `order` SET Shipper=#{shipper},Origin=#{origin},Destination=#{destination},GoodsName=#{goodsName},Carriers=#{carriers},State=#{state},transporter=#{transporter} WHERE Num=#{num}
+    </update>
+
+    <delete id="DeleteOrder">
+        Delete FROM `order` WHERE Num=#{num}
+    </delete>
+
+    <select id="FindState" resultType="com.example.firstWork.Bean.Order">
+        SELECT * FROM `order` WHERE state="已下单"
+    </select>
+
+
+</mapper>
