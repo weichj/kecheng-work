@@ -1,0 +1,32 @@
+################ 项目基本配置 ################
+server:
+  port: 8012
+  servlet:
+    # 项目访问路径前缀
+    context-path: /order
+spring:
+  application:
+    # 注册到Eureka的服务名
+    name: Order
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/javaee?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+  resources:
+    static-locations:classpath:static/
+
+mybatis:
+  type-aliases-package: com.example.EurekaOrder.Bean
+  mapper-locations: classpath:mappers/*.xml
+
+################ Eureka配置 ################
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+
+
