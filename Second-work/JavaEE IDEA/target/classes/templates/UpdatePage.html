@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/UpdateOrder">
+    <p>订单号: <input type="text" name="Num" readonly="readonly" th:value="${order.num}"></p>
+    <p>承运人：<input type="text" name="Shipper" readonly="readonly" th:value="${order.shipper}"></p>
+    <p>发货地：<input type="text" name="Origin" th:value="${order.origin}"></p>
+    <p>目的地：<input type="text" name="Destination" th:value="${order.destination}"></p>
+    <p>货品名称：<input type="text" name="GoodsName" th:value="${order.goodsName}"></p>
+    <p>运输公司：<input type="text" name="Carriers" th:value="${order.carriers}"></p>
+    <p>状态：
+        <select th:field="${order.state}" name="State">
+            <option th:if="'出库中'" th:selected="selected" value="出库中">出库中</option>
+            <option th:if="'已出库'" th:selected="selected" value="已出库">已出库</option>
+            <option th:if="'运输中'" th:selected="selected" value="运输中">运输中</option>
+            <option th:if="'已送达'" th:selected="selected" value="已送达">已送达</option>
+        </select>
+    </p>
+    <p>送货员：<input type="text" name="transporter" th:value="${order.transporter}"></p>
+    <input type="submit" name="提交"/>
+</form>
+</body>
+</html>

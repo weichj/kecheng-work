@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e65e0ba-6743-419c-b556-1ce08521639e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/EurekaVUE/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/EurekaVUE/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/EurekaVUE/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/EurekaVUE/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/EurekaVUE/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/EurekaVUE/src/views/HomeView.vue" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Eureka/EurekaVUE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RKUyOI4NTKDZSiScSXHkJ0h79s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaOrderApplication">
+    <configuration name="EurekaOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaOrder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaOrder.EurekaOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaTransApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaTrans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaTrans.EurekaTransApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaUser" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaUser.EurekaUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e65e0ba-6743-419c-b556-1ce08521639e" name="Changes" comment="" />
+      <created>1686998520806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686998520806</updated>
+      <workItem from="1686998522740" duration="7840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
